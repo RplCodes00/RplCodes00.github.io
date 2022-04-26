@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0; 
+	background: #DE52B4;
+  text-align: center;
+  animation: backColor linear infinite 10s;
+}
+
+/* container */
+.container{
+  width: 80%;
+  /* border: black 2px solid; */
+  margin: 150px auto;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+}
+.container h1{
+
+  font-size: 70px;
+  color: #FFBFE5;
+  font-weight: 100%;
+}
+.h3 {
+  width: 100%;
+  text-align: center;
+  color: #FFBFE5;
+  font-size: 20px;
+  /* border: black 2px solid; */
+}
+.gender{
+  margin: 100px auto;
+  width: 50%;
+  /* border: 2px black solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gender h3{
+  width: 100%;
+  font-size: 20px;
+  color: #FFBFE5;
+}
+.backKotak{
+  width: 150px;
+  margin: 10px;
+  padding: 3px;
+  padding-bottom: 7px;
+  background-color: #C42795;
+  border-radius: 25px;
+}
+.realKotak{
+  width: 100%;
+  height: 150px;
+  background-color: #FFBFE5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+.fa-mars,.fa-venus{
+  font-size: 90px; 
+  color:  #C42795;
+}
+.backKotak:hover{
+  transform: scale(1.1);
+  background-color: #FFBFE5;
+}
+.backKotak:hover .realKotak{
+  background-color: #C42795;
+}
+.backKotak:hover .fa-mars{ 
+  color:  #FFBFE5;
+}
+.backKotak:hover .fa-venus{ 
+  color:  #FFBFE5;
+}
+
+.backKotak:active{
+  transform: scale(1.1);
+  background-color: #FFBFE5;
+}
+.backKotak:active .realKotak{
+  background-color: #C42795;
+}
+.backKotak:active .fa-mars{ 
+  color:  #FFBFE5;
+}
+.backKotak:active .fa-venus{ 
+  color:  #FFBFE5;
+}
+.fa-heart{
+  animation: jedak 1s linear infinite;
+}
+
+@keyframes jedak {
+  from{
+    transform: scale(.8);
+  }
+}
+@keyframes backColor {
+  15%{
+    background-color: #C42795;
+  }
+  35%{
+    background-color: #DE52B4;
+  }
+  70%{
+    background-color: #EA88CE;
+  }
+  /* 95%{
+    background-color: #DE52B4;
+  } */
+}
+/* responsive */
+@media screen and (max-width: 896px){
+  .gender{
+      width: 65%;
+  }
+}
+@media screen and (max-width: 693px){
+  .gender{
+      width: 75%;
+  }
+}
+@media screen and (max-width: 603px){
+  .gender{
+      width: 85%;
+  }
+  .container h1{
+
+    font-size: 60px;
+
+  }
+}
+@media screen and (max-width: 534px){
+  .gender{
+      width: 95%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

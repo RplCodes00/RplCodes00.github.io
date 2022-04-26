@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    background-color: #114BBF;
+}
+.back-Container{
+    width: 26%;
+    height: auto;
+    background-color: #021859;
+    margin: 50px auto;
+    /* border: black 0px solid; */
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 18px;
+}
+.container{
+    /* width: 30%; */
+    width: 99%;
+    background-color: #327AD9;
+    margin: 0px auto ;
+ 
+    border-radius: 28px;
+}
+h2{
+    font-family: 'Paytone One', sans-serif;
+    color: #F2F2F2;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: none;
+    transform: scale(0);
+    -webkit-text-stroke: #021859 .3px;
+}
+.img{
+    width: 45%;
+    height: auto;
+    border: #021859 8px solid;
+    border-radius: 20px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.kata{
+    font-family: 'Paytone One', sans-serif;
+    display: none;
+    transform: scale(0);
+    font-size: 20px;
+    color: #021859;
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+.kata .nama{
+    transform: scale(1.05);
+    color: #5CACF2;
+}
+
+/* .backButton{
+    width: 90px;
+    height: 90px;
+    background-color: #A31180;
+    display: inline;
+    border: 2px solid black;
+} */
+
+.buttons{
+    
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.backButton{
+    width: 28%;
+    /* border: 2px solid black; */
+    padding-top: 1px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    background-color: #5CACF2;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.button{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 98%;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #021859;
+    font-size: 14px;
+    font-weight: 100%;
+    color: #5CACF2;
+    font-family: 'Fredoka One', cursive;
+    cursor: pointer;
+}
+.backButton:hover{
+    background-color: #021859;
+    transform: scale(1.1);
+}
+.backButton:hover button {
+    background-color: #5CACF2;
+    color: #021859;
+}
+.backButton:hover button a{
+    color: #021859;
+}
+.backButton:active{
+    background-color: #021859;
+    transform: scale(1.1);
+}
+.backButton:active button {
+    background-color: #5CACF2;
+    color: #021859;
+}
+.backButton:active button a{
+    color: #021859;
+}
+
+.button a{
+    color: #5CACF2;
+    text-decoration: none;
+}
+.back2 , .back3{
+    display: none;
+    transform: scale(0);
+}
+.headQuot{
+    color: #021859;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px ;
+    transform: scale(0);
+    display: none;
+}
+.quotes{
+    width: 85%;
+    margin: 0px auto;
+    color: #021859;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    transform: scale(0);
+    display: none;
+}
+.pilihGender{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 15px;
+    color: #021859;
+}
+.pilihGender a{
+    text-decoration: none;
+    color: #5CACF2;
+}
+.show{
+    animation: outAnim .8s forwards;
+}
+.inShow{
+    animation: inAnim .8s forwards;
+}
+.hilang{
+    animation: mengecil .8s forwards;
+}
+.fa-heart{
+    animation: heartAnim .5s infinite;
+}
+/* h2,.kata{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
+.button2{
+    display: none;
+} */
+
+/* animation */
+@keyframes outAnim {
+    to{
+        transform: scale(1);
+    }
+    
+}
+@keyframes inAnim {
+    to{
+        transform: scale(.8);
+    }
+    
+}
+@keyframes mengecil {
+    to{
+        transform: scale(0);
+       
+    }
+}
+@keyframes heartAnim {
+    to{
+        transform: scale(1.2);
+    }
+}
+
+/* responsive */
+@media screen and (max-width: 576px){
+    .back-Container{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1920px){
+    .back-Container{
+        width: 23%;
+    }
+}
+@media screen and (max-width: 1517px){
+    .back-Container{
+        width: 37%;
+    }
+}
+@media screen and (max-width: 1366px){
+    .back-Container{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 1126px){
+    .back-Container{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 789px){
+    .back-Container{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 717px){
+    .back-Container{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 657px){
+    .back-Container{
+        width: 67%;
+    }
+}
+@media screen and (max-width: 588px){
+    .back-Container{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 526px){
+    .back-Container{
+        width: 83%;
+    }
+}
