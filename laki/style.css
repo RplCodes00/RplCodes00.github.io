@@ -108,17 +108,6 @@ h2{
 .backButton:hover button a{
     color: #021859;
 }
-.backButton:active{
-    background-color: #021859;
-    transform: scale(1.1);
-}
-.backButton:active button {
-    background-color: #5CACF2;
-    color: #021859;
-}
-.backButton:active button a{
-    color: #021859;
-}
 
 .button a{
     color: #5CACF2;
@@ -253,5 +242,17 @@ h2{
 @media screen and (max-width: 526px){
     .back-Container{
         width: 83%;
+    }
+}
+@media screen and (max-width: 440px){
+    h2{
+
+        font-size: 35px;
+
+    }
+    .quotes{
+
+        font-size: 12px;
+
     }
 }

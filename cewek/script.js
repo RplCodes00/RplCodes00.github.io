@@ -138,7 +138,7 @@ buttons.forEach((button)=>{
             }
             // link ig sama wa banh      
              switch(randomLuwh){
-                 case 'Auja ': link.setAttribute("href","https://www.instagram.com/1rubyelrn/");
+                 case 'Auja':  link.setAttribute("href","https://www.instagram.com/1rubyelrn/");
                                link2.setAttribute("href","https://wa.me/6289501915965/?text=Haloo,aku%20mau%20ngomong%20sesuatu%20nih...%0AKamu%20mau%20gak%20jadi%20pacar%20aku?");
                                break;
                  case 'Ami'  : link.setAttribute("href","https://www.instagram.com/najmiptr/");
