@@ -259,3 +259,16 @@ h2{
 
     }
 }
+@media screen and (max-width: 400px){
+    h2{
+    
+        font-size: 35px;
+
+    }
+    .back-Container{
+        width: 96%;
+    }
+    .img{
+        width: 65%;
+    }
+}

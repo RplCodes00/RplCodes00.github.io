@@ -10,7 +10,7 @@ body{
 .container{
   width: 80%;
   /* border: black 2px solid; */
-  margin: 150px auto;
+  margin: 100px auto;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   text-align: center;
 }
