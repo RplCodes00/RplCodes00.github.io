@@ -139,6 +139,22 @@ body{
   }
 
 }
+@media screen and (max-width: 440px){
+  .gender{
+
+    width: 100%;
+
+  }
+  .backKotak{
+    width: 100px;
+
+  }
+  .container h1{
+
+    font-size: 40px;
+
+  }
+}
 
 
 
